@@ -26,7 +26,7 @@ if (!empty($_POST["to"]) && !empty($_POST["reminder"])) {
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
-  <title>Web SMS</title>
+  <title>SMS Reminder</title>
 
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -34,7 +34,7 @@ if (!empty($_POST["to"]) && !empty($_POST["reminder"])) {
 <body>
 
 <div id="content">
-<h1>Web SMS</h1>
+<h1>SMS Reminder</h1>
 
 <?php
 
